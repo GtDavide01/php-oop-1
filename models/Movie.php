@@ -17,6 +17,6 @@ class Movie
     }
     public function getInfoMovie()
     {
-        return "Titolo  : $this->title ; Genere : $this->genere ; Durata : $this->durata ; Lingua : $this->lingua ;  Descrizione : $this->description ;";
+        return "Titolo  : $this->title ; <br>  Genere : $this->genere ; <br> Durata : $this->durata ;<br> Lingua : $this->lingua ;<br>  Descrizione : $this->description ;";
     }
 }

@@ -30,7 +30,7 @@ var_dump($movie1);
 </head>
 
 <body>
-
+    <h2><?php echo $movie1->getInfoMovie() ?></h2>
 </body>
 
 </html>
