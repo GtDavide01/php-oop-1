@@ -15,8 +15,17 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 <?php
 require_once __DIR__ . "/models/Movie.php";
 
-$movie1 = new Movie("Mission Impossible", "Azione", "106 min", "inglese");
+$generi = [
+    "Azione",
+    "Avventura",
+    "Fantascienza",
+    "Horror",
+];
+
+$movie1 = new Movie("Mission Impossible", $generi, "106 min", "inglese");
 var_dump($movie1);
+
+
 ?>
 
 <!DOCTYPE html>
